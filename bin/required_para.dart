@@ -1,9 +1,9 @@
 void main(){
-requiredpara(name: "Syam");
+defaultpara(age: 25);
 
 }
-//required parameter
-requiredpara({required String name}){
-print(name);
+
+defaultpara({int age=10}){
+print(age);
 
 }
