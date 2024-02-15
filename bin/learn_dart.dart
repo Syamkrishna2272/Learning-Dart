@@ -1,14 +1,13 @@
+import 'dart:io';
+
 void main() {
-  for (int i = 0; i < 5; i++) {
-    if (i == 3) {
-      break;
-    }
-    print(i);
-  }
-  for (int i = 0; i <= 5; i++) {
-    if (i == 2) {
-      continue;
-    }
-    print(i);
+  print("Enter  a String");
+  String a = stdin.readLineSync()!;
+  // print("Entered String is $a");
+  String b = a.split('').reversed.join();
+  if (a == b) {
+    print("Its palindrome");
+  } else {
+    print("Not palindrome");
   }
 }
