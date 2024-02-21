@@ -8,7 +8,7 @@
 
 // Future<void>getallabc()async{
 //   _db.rawquery('SELECT * FROM abc');
-// }
+// } 
 
 // //INSERT
 
